@@ -1,9 +1,8 @@
 name : github action
 on : push
-jobs : 
-exploore
+jobs : exploore
 runs_on : ubuntu-latest
-steps:
-name : print
+steps :
+name : print the tarvg
 run : echo "tmmkgmbg"
 
