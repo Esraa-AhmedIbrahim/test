@@ -1,0 +1,14 @@
+name: heloo
+ on : push
+ jobs : 
+    maintest:
+        runs-on : ubuntu-latest
+        steps : 
+        - name : checkout pckv
+          uses: actions/ checkout@v4
+           - name : set
+             uses : gradle/gradle-build-action@v2
+              - name : run
+                 run : ./gradlew test
+
+
